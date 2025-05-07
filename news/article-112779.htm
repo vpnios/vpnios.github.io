@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://vpnios.github.io/news/article-112779.htm" />
+    <meta charset="utf-8">
+    <title>深入了解VLESS协议：安卓端配置与优化完整指南</title>
+        <meta name="description" content="在日益复杂的网络环境中，如何保持高效、安全的网络连接成为了越来越多用户关注的重点。尤其是在数据隐私和速度需求并重的情况下，VLESS协议凭借其高效性、灵活性和安全性，逐渐成为了许多网络代理用户的首选。" />
+        <link rel="icon" href="/assets/website/img/freenekobox/favicon.ico" type="image/x-icon"/>
+
+    <meta name="author" content="VPN IOS 订阅中文网">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://vpnios.github.io/news/article-112779.htm" />
+    <meta property="og:site_name" content="VPN IOS 订阅中文网" />
+    <meta property="og:title" content="深入了解VLESS协议：安卓端配置与优化完整指南" />
+    <meta property="og:image" content="https://vpnios.github.io/uploads/20240726/4d5140a386aa63430e4304d2353b6b1a.webp" />
+        <meta property="og:release_date" content="2025-05-07T08:55:34" />
+    <meta property="og:updated_time" content="2025-05-07T08:55:34" />
+        <meta property="og:description" content="在日益复杂的网络环境中，如何保持高效、安全的网络连接成为了越来越多用户关注的重点。尤其是在数据隐私和速度需求并重的情况下，VLESS协议凭借其高效性、灵活性和安全性，逐渐成为了许多网络代理用户的首选。" />
+        
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="深入了解VLESS协议：安卓端配置与优化完整指南">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googleadservices.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cm.g.doubleclick.net">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="/assets/website/js/frontend/freenekobox/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="/assets/website/js/frontend/freenekobox/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/website/js/frontend/freenekobox/animate/animate.min.css" rel="stylesheet">
+    <link href="/assets/website/js/frontend/freenekobox/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="/assets/website/js/frontend/freenekobox/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/assets/website/js/frontend/freenekobox/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="/assets/website/js/frontend/freenekobox/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="/assets/website/css/freenekobox/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/website/css/G.css" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P09FJ7DMFH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P09FJ7DMFH');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332997411212854" crossorigin="anonymous"></script>
+</head>
+
+<body id="body" data-page="detail">
+        <header id="header">
+        <div class="container">
+            <div id="logo" class="pull-left">
+                                <a href="/" id="body" class="scrollto">VPN IOS</a>
+                                <!-- <a href="#body"><img src="/assets/website/img/freenekobox/logo.png" alt="" title="" /></a>-->
+            </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                                        <li><a href="/">首页</a></li>
+                                        <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                        <li><a href="/news/">新闻资讯</a></li>
+                                        <li><a href="/client.htm">客户端</a></li>
+                                    </ul>
+            </nav><!-- #nav-menu-container -->
+        </div>
+    </header><!-- #header -->
+    <!--==========================
+    Page Banner Section
+  ============================-->
+    <section id="innerBanner">
+        <div class="inner-content">
+            <h1><span>深入了解VLESS协议：安卓端配置与优化完整指南</span></h1>
+            <div class="nav-box">
+                <a href="/">首页</a> / <a href="/news/">新闻资讯</a> / <span>正文</span>
+            </div>
+        </div>
+    </section><!-- #Page Banner -->
+    <main id="main">
+        <section id="about" class="wow fadeInUp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                                        <input type="hidden" id="share-website-info" data-name="Clash Node官网订阅站" data-url="https://clashnode.github.io">
+                <div class="xcblog-blog-detail xcblog-blog-detail-defined">
+                    
+<p data-start="28" data-end="132" class="">在日益复杂的网络环境中，如何保持高效、安全的网络连接成为了越来越多用户关注的重点。尤其是在数据隐私和速度需求并重的情况下，<strong data-start="89" data-end="98">VLESS</strong>协议凭借其高效性、灵活性和安全性，逐渐成为了许多网络代理用户的首选。</p>
+<p data-start="134" data-end="300" class="">VLESS是<strong data-start="140" data-end="149">V2Ray</strong>的轻量级版本，它摒弃了传统的认证方式，采用更为现代和灵活的用户ID机制，并通过多种协议和加密方式提供强有力的安全保障。无论是进行科学上网，还是保护网络隐私，VLESS协议都展现了其卓越的性能。本文将为安卓用户提供一份详细的<strong data-start="260" data-end="276">VLESS安卓端配置指南</strong>，帮助您在安卓设备上高效且安全地使用VLESS。</p>
+<hr data-start="302" data-end="305" class="" style="">
+<h2 data-start="307" data-end="319" class="">什么是VLESS？</h2>
+<p data-start="321" data-end="465" class=""><strong data-start="321" data-end="330">VLESS</strong>（V2Ray Lightweight Encrypted Streaming）协议是<strong data-start="372" data-end="381">V2Ray</strong>的一个优化版本，旨在通过简化与优化，提供更高效和更安全的网络代理服务。与传统的<strong data-start="420" data-end="435">Shadowsocks</strong>或<strong data-start="436" data-end="445">VMess</strong>等协议相比，VLESS具备以下显著优势：</p>
+<h3 data-start="467" data-end="482" class="">1. <strong data-start="474" data-end="482">高效性：</strong></h3>
+<p data-start="483" data-end="530" class="">VLESS协议采用了更加精简和高效的架构，减少了在数据传输中的延迟，从而提升了网络访问的速度。</p>
+<h3 data-start="532" data-end="547" class="">2. <strong data-start="539" data-end="547">安全性：</strong></h3>
+<p data-start="548" data-end="607" class="">VLESS使用了更为先进的加密算法，确保在数据传输过程中，用户的隐私不被泄露。它有效防止了网络攻击，确保通信的安全性。</p>
+<h3 data-start="609" data-end="624" class="">3. <strong data-start="616" data-end="624">灵活性：</strong></h3>
+<p data-start="625" data-end="684" class="">VLESS支持多种传输协议，如TCP、WebSocket等，能够适应不同的网络环境和需求，具有较强的兼容性和适应能力。</p>
+<h3 data-start="686" data-end="703" class="">4. <strong data-start="693" data-end="703">抗干扰能力：</strong></h3>
+<p data-start="704" data-end="748" class="">VLESS具备动态端口支持，这使得它在面对网络封锁时更加灵活，能够有效绕过各种网络限制。</p>
+<hr data-start="750" data-end="753" class="" style="">
+<h2 data-start="755" data-end="772" class="">VLESS协议的基本工作原理</h2>
+<p data-start="774" data-end="822" class="">VLESS协议的核心功能是对网络流量进行加密、分流，并通过多种协议传输数据。其主要工作原理如下：</p>
+<h3 data-start="824" data-end="840" class="">1. <strong data-start="831" data-end="840">数据加密：</strong></h3>
+<p data-start="841" data-end="897" class="">VLESS通过使用先进的加密算法（如AES-256-GCM）确保数据传输过程中的信息安全，防止数据被窃取或篡改。</p>
+<h3 data-start="899" data-end="915" class="">2. <strong data-start="906" data-end="915">多路复用：</strong></h3>
+<p data-start="916" data-end="955" class="">VLESS能够允许多个连接共享一个TCP连接，从而提高了传输效率，减少了延迟。</p>
+<h3 data-start="957" data-end="975" class="">3. <strong data-start="964" data-end="975">动态端口配置：</strong></h3>
+<p data-start="976" data-end="1030" class="">VLESS支持动态端口设置，可以随时更换端口，从而增强了其抗干扰能力，使其能够在受限网络环境中更稳定地运行。</p>
+<h3 data-start="1032" data-end="1048" class="">4. <strong data-start="1039" data-end="1048">协议支持：</strong></h3>
+<p data-start="1049" data-end="1101" class="">VLESS支持TCP、WebSocket、mKCP等多种传输协议，能够根据不同的网络环境进行自适应切换。</p>
+<hr data-start="1103" data-end="1106" class="" style="">
+<h2 data-start="1108" data-end="1126" class="">如何在安卓设备上配置VLESS</h2>
+<p data-start="1128" data-end="1187" class="">在安卓设备上使用VLESS并进行配置相对简单。只要按照以下步骤，您就能顺利配置VLESS，并享受高速、安全的网络服务。</p>
+<h3 data-start="1189" data-end="1204" class="">1. <strong data-start="1196" data-end="1204">准备工作</strong></h3>
+<p data-start="1206" data-end="1226" class="">在开始配置之前，您需要完成以下准备工作：</p>
+<ul data-start="1228" data-end="1405">
+<li data-start="1228" data-end="1301" class="" style="">
+<p data-start="1230" data-end="1301" class=""><strong data-start="1230" data-end="1248">下载并安装VLESS客户端：</strong> 下载并安装支持VLESS协议的客户端。通常，<strong data-start="1271" data-end="1282">V2RayNG</strong>是安卓设备上最常用的VLESS客户端。</p>
+</li>
+<li data-start="1302" data-end="1405" class="" style="">
+<p data-start="1304" data-end="1405" class=""><strong data-start="1304" data-end="1321">获取VLESS服务器信息：</strong> 您需要获得VLESS服务器的相关信息，如<strong data-start="1342" data-end="1351">服务器地址</strong>、<strong data-start="1352" data-end="1359">端口号</strong>、<strong data-start="1360" data-end="1368">用户ID</strong>等。如果您是通过服务商或某个社区获取VLESS节点，确保这些信息准确无误。</p>
+</li>
+</ul>
+<h3 data-start="1407" data-end="1428" class="">2. <strong data-start="1414" data-end="1428">下载VLESS客户端</strong></h3>
+<p data-start="1430" data-end="1459" class="">您可以通过以下两种方式来下载安卓设备上的VLESS客户端：</p>
+<ul data-start="1461" data-end="1618">
+<li data-start="1461" data-end="1531" class="" style="">
+<p data-start="1463" data-end="1531" class=""><strong data-start="1463" data-end="1483">通过Google Play商店：</strong> 直接在Google Play商店搜索“V2RayNG”或“VLESS”相关应用，下载安装即可。</p>
+</li>
+<li data-start="1532" data-end="1618" class="" style="">
+<p data-start="1534" data-end="1618" class=""><strong data-start="1534" data-end="1558">从官方网站或GitHub下载APK文件：</strong> 如果您希望下载最新版本，或者没有Google Play商店，您可以前往官方网站或GitHub页面，手动下载APK文件。</p>
+</li>
+</ul>
+<blockquote data-start="1620" data-end="1672">
+<p data-start="1622" data-end="1672" class=""><strong data-start="1622" data-end="1629">注意：</strong> 如果您是从GitHub下载APK文件，请确保从可靠的源获取，避免下载到被篡改的文件。</p>
+</blockquote>
+<h3 data-start="1674" data-end="1695" class="">3. <strong data-start="1681" data-end="1695">安装VLESS客户端</strong></h3>
+<p data-start="1697" data-end="1754" class="">找到您下载的APK文件后，点击安装。如果您的设备设置了禁止安装来自未知来源的应用，您需要允许安装来自该来源的应用。</p>
+<ul data-start="1756" data-end="1821">
+<li data-start="1756" data-end="1800" class="" style="">
+<p data-start="1758" data-end="1800" class=""><strong data-start="1758" data-end="1800">进入“设置” -&gt; “安全” -&gt; “未知来源”，并允许安装未知来源的应用。</strong></p>
+</li>
+<li data-start="1801" data-end="1821" class="" style="">
+<p data-start="1803" data-end="1821" class="">安装完成后，点击应用图标启动客户端。</p>
+</li>
+</ul>
+<h3 data-start="1823" data-end="1843" class="">4. <strong data-start="1830" data-end="1843">配置VLESS连接</strong></h3>
+<p data-start="1845" data-end="1876" class="">打开VLESS客户端后，您需要配置连接信息。具体操作步骤如下：</p>
+<h4 data-start="1878" data-end="1908" class="">1. 打开V2RayNG客户端并进入“设置”页面。</h4>
+<h4 data-start="1909" data-end="1946" class="">2. 点击“添加VLESS连接”或“新增配置”，并填写以下信息：</h4>
+<ul data-start="1948" data-end="2139">
+<li data-start="1948" data-end="1978" class="" style="">
+<p data-start="1950" data-end="1978" class=""><strong data-start="1950" data-end="1960">服务器地址：</strong> 输入VLESS服务器的IP或域名。</p>
+</li>
+<li data-start="1979" data-end="2005" class="" style="">
+<p data-start="1981" data-end="2005" class=""><strong data-start="1981" data-end="1989">端口号：</strong> 输入VLESS服务器的端口号。</p>
+</li>
+<li data-start="2006" data-end="2045" class="" style="">
+<p data-start="2008" data-end="2045" class=""><strong data-start="2008" data-end="2023">用户ID（UUID）：</strong> 输入您的用户ID，这是进行连接认证的关键。</p>
+</li>
+<li data-start="2046" data-end="2089" class="" style="">
+<p data-start="2048" data-end="2089" class=""><strong data-start="2048" data-end="2061">额外ID（可选）：</strong> 如果服务器要求，填写额外的ID（通常用于负载均衡等）。</p>
+</li>
+<li data-start="2090" data-end="2139" class="" style="">
+<p data-start="2092" data-end="2139" class=""><strong data-start="2092" data-end="2101">传输协议：</strong> 选择合适的协议（如TCP、WebSocket等），可以根据网络环境来调整。</p>
+</li>
+</ul>
+<h4 data-start="2141" data-end="2160" class="">3. 配置完毕后，点击保存。</h4>
+<h3 data-start="2162" data-end="2178" class="">5. <strong data-start="2169" data-end="2178">保存并连接</strong></h3>
+<p data-start="2180" data-end="2239" class="">完成配置后，返回主界面，点击“连接”按钮，等待VLESS客户端与服务器建立连接。若一切顺利，您将会看到连接成功的提示。</p>
+<hr data-start="2241" data-end="2244" class="" style="">
+<h2 data-start="2246" data-end="2260" class="">常见问题解答（FAQ）</h2>
+<p data-start="2262" data-end="2302" class="">在使用VLESS的过程中，您可能会遇到一些问题。以下是几个常见问题及其解决方案：</p>
+<h3 data-start="2304" data-end="2332" class="">1. <strong data-start="2311" data-end="2332">VLESS与V2Ray有什么区别？</strong></h3>
+<p data-start="2333" data-end="2417" class="">VLESS是V2Ray的轻量级版本，去除了V2Ray中的一些冗余功能，专注于优化性能和安全性。VLESS不再使用传统的认证方式，而是采用了UUID（用户ID）进行认证。</p>
+<h3 data-start="2419" data-end="2447" class="">2. <strong data-start="2426" data-end="2447">如何解决VLESS连接失败的问题？</strong></h3>
+<p data-start="2448" data-end="2471" class="">连接失败的原因可能有很多，以下是一些解决办法：</p>
+<ul data-start="2472" data-end="2534">
+<li data-start="2472" data-end="2489" class="" style="">
+<p data-start="2474" data-end="2489" class="">检查服务器地址和端口是否正确。</p>
+</li>
+<li data-start="2490" data-end="2504" class="" style="">
+<p data-start="2492" data-end="2504" class="">确保设备已连接至互联网。</p>
+</li>
+<li data-start="2505" data-end="2534" class="" style="">
+<p data-start="2507" data-end="2534" class="">尝试切换传输协议，如从TCP切换到WebSocket。</p>
+</li>
+</ul>
+<h3 data-start="2536" data-end="2562" class="">3. <strong data-start="2543" data-end="2562">VLESS是否支持多设备使用？</strong></h3>
+<p data-start="2563" data-end="2633" class="">是的，VLESS可以在安卓、iOS、Windows、Linux等多种设备上使用。您只需根据不同设备下载相应的客户端，并配置正确的服务器信息。</p>
+<h3 data-start="2635" data-end="2658" class="">4. <strong data-start="2642" data-end="2658">VLESS的安全性如何？</strong></h3>
+<p data-start="2659" data-end="2745" class="">VLESS采用了AES-256-GCM等强加密算法，确保用户的数据在传输过程中不会被泄露或篡改。此外，VLESS还支持动态端口和混淆协议，进一步提高了其安全性和抗干扰能力。</p>
+<hr data-start="2747" data-end="2750" class="" style="">
+<h2 data-start="2752" data-end="2757" class="">总结</h2>
+<p data-start="2759" data-end="2865" class="">通过本文的详细介绍，您已经了解了如何在安卓设备上配置VLESS协议。VLESS以其高效、安全、灵活的特性，成为了许多用户的首选协议。通过正确的配置，您不仅能享受高速的网络连接，还能有效保护个人隐私，避免数据泄露。</p>
+<p data-start="2867" data-end="2968" class="">无论是在日常浏览网页、访问被封锁的内容，还是进行网络安全测试，VLESS都能为您提供一种高效且安全的解决方案。如果您在配置过程中遇到问题，可以参考本文中的常见问题解答部分，或者加入相关社区获得更多帮助。</p>                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-112437.htm">iOS用户科学上网全攻略：手把手教你在Shadowrocket中配置Vmess协议</a></p>
+                                        <p>下一个：<a href="/news/article-112781.htm">从路由器开启信息自由：科学上网利器V2Ray刷机实战全攻略</a></p>
+                                    </div>
+                                    </div>
+                    <div class="col-md-3">
+                        <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-109013.htm" title="V2Ray拨号无法连接问题全面解析及解决方案">V2Ray拨号无法连接问题全面解析及解决方案</a></li>
+                        <li class="py-2"><a href="/news/article-105382.htm" title="科学上网的深刻体验：信息自由与安全的平衡">科学上网的深刻体验：信息自由与安全的平衡</a></li>
+                        <li class="py-2"><a href="/news/article-110734.htm" title="深入解析 Shadowrocket 启动命令与使用技巧：全方位提升你的网络自由">深入解析 Shadowrocket 启动命令与使用技巧：全方位提升你的网络自由</a></li>
+                        <li class="py-2"><a href="/news/article-107445.htm" title="深度指南：V2Ray一键控流的使用与配置">深度指南：V2Ray一键控流的使用与配置</a></li>
+                        <li class="py-2"><a href="/news/article-107439.htm" title="完全指南：如何安装和配置Clash.net以优化您的网络体验">完全指南：如何安装和配置Clash.net以优化您的网络体验</a></li>
+                        <li class="py-2"><a href="/news/article-112081.htm" title="深度剖析Clash性能消耗：原理解析与优化实战全指南">深度剖析Clash性能消耗：原理解析与优化实战全指南</a></li>
+                        <li class="py-2"><a href="/news/article-110737.htm" title="如何配置Vmess协议：完整的使用与优化指南">如何配置Vmess协议：完整的使用与优化指南</a></li>
+                        <li class="py-2"><a href="/news/article-105383.htm" title="绿色科学上网软件下载与使用全攻略：突破网络限制，畅享自由网络">绿色科学上网软件下载与使用全攻略：突破网络限制，畅享自由网络</a></li>
+                        <li class="py-2"><a href="/news/article-106207.htm" title="手把手教你科学上网访问FC2 Live：全面教程与常见问题解答">手把手教你科学上网访问FC2 Live：全面教程与常见问题解答</a></li>
+                        <li class="py-2"><a href="/news/article-111547.htm" title="利用Cloudflare中转实现V2Ray加密加速：最全配置教程与实战经验分享">利用Cloudflare中转实现V2Ray加密加速：最全配置教程与实战经验分享</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">14</span> <a href="/date/2025-05/" title="2025-05 归档">2025-05</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">10</span> <a href="/date/2025-04/" title="2025-04 归档">2025-04</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!-- #about -->
+        <footer id="footer">
+    <div class="container">
+        <div class="copyright">
+                                <p>
+                                                <a href="/">首页</a> |
+                                                <a href="/paid-subscribe/">推荐机场</a> |
+                                                <a href="/news/">新闻资讯</a> |
+                                                <a href="/client.htm">客户端</a> |
+                                                <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+            VPN IOS 订阅中文网 版权所有
+            <br />
+            Powered by WordPress
+        </div>
+    </div>
+</footer><!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- JavaScript  -->
+<script src="/assets/website/js/frontend/freenekobox/jquery/jquery.min.js"></script>
+<script src="/assets/website/js/frontend/freenekobox/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/website/js/frontend/freenekobox/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/website/js/frontend/freenekobox/easing/easing.min.js"></script>
+<script src="/assets/website/js/frontend/freenekobox/superfish/hoverIntent.js"></script>
+<script src="/assets/website/js/frontend/freenekobox/superfish/superfish.min.js"></script>
+<script src="/assets/website/js/frontend/freenekobox/wow/wow.min.js"></script>
+<script src="/assets/website/js/frontend/freenekobox/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/website/js/frontend/freenekobox/magnific-popup/magnific-popup.min.js"></script>
+<script src="/assets/website/js/frontend/freenekobox/sticky/sticky.js"></script>
+<script src="/assets/website/js/frontend/freenekobox/main.js"></script>
+<script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script><script src="/assets/website/js/frontend/G.js"></script>
+    </main>
+</body>
+
+</html>
