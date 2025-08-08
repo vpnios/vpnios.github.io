@@ -1,4 +1,4 @@
-# VPN IOS - 7月28日20.8M/S|免费SSR/V2ray/Shadowrocket/Clash订阅节点分享  更新时间 2025-07-28 08:53:40
+# VPN IOS - 8月8日21.6M/S|免费Shadowrocket/V2ray/SSR/Clash订阅节点分享  更新时间 2025-08-08 09:03:43
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpnios.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://vpnios.github.io/uploads/2025/07/0-20250728.yaml
-- https://vpnios.github.io/uploads/2025/07/1-20250728.yaml
-- https://vpnios.github.io/uploads/2025/07/2-20250728.yaml
-- https://vpnios.github.io/uploads/2025/07/3-20250728.yaml
-- https://vpnios.github.io/uploads/2025/07/4-20250728.yaml
+- https://vpnios.github.io/uploads/2025/08/0-20250808.yaml
+- https://vpnios.github.io/uploads/2025/08/1-20250808.yaml
+- https://vpnios.github.io/uploads/2025/08/2-20250808.yaml
+- https://vpnios.github.io/uploads/2025/08/3-20250808.yaml
+- https://vpnios.github.io/uploads/2025/08/4-20250808.yaml
 
 ### V2ray订阅链接
 
-- https://vpnios.github.io/uploads/2025/07/0-20250728.txt
-- https://vpnios.github.io/uploads/2025/07/1-20250728.txt
-- https://vpnios.github.io/uploads/2025/07/2-20250728.txt
-- https://vpnios.github.io/uploads/2025/07/3-20250728.txt
-- https://vpnios.github.io/uploads/2025/07/4-20250728.txt
+- https://vpnios.github.io/uploads/2025/08/0-20250808.txt
+- https://vpnios.github.io/uploads/2025/08/1-20250808.txt
+- https://vpnios.github.io/uploads/2025/08/2-20250808.txt
+- https://vpnios.github.io/uploads/2025/08/3-20250808.txt
+- https://vpnios.github.io/uploads/2025/08/4-20250808.txt
 
 ### Sing-box订阅链接
 
-- https://vpnios.github.io/uploads/2025/07/20250728.json
+- https://vpnios.github.io/uploads/2025/08/20250808.json
 
 ## 更多clash节点订阅 ：
 
