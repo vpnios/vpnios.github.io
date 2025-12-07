@@ -237,9 +237,9 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>QuantumultX 如何实现按应用分流？</h5></div>
+    <div class="panel-heading"><h5>Nekoray 节点订阅如何实现自动更新？</h5></div>
     <div class="panel-body">
-        QuantumultX 可以根据不同应用程序的流量类型设置分流规则，通过策略组选择最优节点。这样可保证游戏、视频和浏览器流量经过最优节点，提高访问速度和网络稳定性。<hr />    </div>
+        用户可添加订阅 URL，Nekoray 会定期自动下载并更新节点列表。保持节点最新可减少手动维护，提高节点可用性和网络连接稳定性，确保科学上网体验顺畅。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Mihomo 的节点管理支持批量操作吗？</h5></div>
@@ -247,29 +247,14 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         Mihomo 支持批量导入、删除和更新节点。通过策略组和分类管理，用户可以高效地管理数百个节点，同时进行测速和节点切换，提高操作效率。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 节点订阅如何实现自动更新？</h5></div>
-    <div class="panel-body">
-        用户可添加订阅 URL，Nekoray 会定期自动下载并更新节点列表。保持节点最新可减少手动维护，提高节点可用性和网络连接稳定性，确保科学上网体验顺畅。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>VMess 使用 AEAD 加密的优势是什么？</h5></div>
     <div class="panel-body">
         AEAD 加密提供更强的安全性和抗重放攻击能力，同时隐藏流量特征，降低被 DPI 检测风险。在高封锁环境下使用，可提升连接稳定性和长期可用性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Potatso Lite 的节点导入方式有哪些？</h5></div>
+    <div class="panel-heading"><h5>Matsuri 的节点自动测速功能如何配置？</h5></div>
     <div class="panel-body">
-        Potatso Lite 支持通过手动添加节点信息或扫描二维码导入节点。虽然不支持自动订阅更新，但对轻量用户来说，手动方式足够使用，方便在 iOS 设备上管理节点。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>如何在 Clash for Android 中导入订阅链接？</h5></div>
-    <div class="panel-body">
-        Clash for Android 支持通过订阅链接快速导入节点。用户只需在配置界面中点击“新建配置”，选择“URL 导入”并粘贴订阅地址即可，程序会自动下载并解析所有节点配置。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 的测速功能如何优化节点选择？</h5></div>
-    <div class="panel-body">
-        Shadowrocket 可测量节点延迟和丢包率，并根据结果排序策略组节点。延迟低的节点会优先使用，保证网页浏览、视频和游戏的速度和稳定性，提高整体网络体验。<hr />    </div>
+        Matsuri 可以设置测速周期和节点列表，程序会自动测试延迟和速度并排序。用户可根据测试结果选择最佳节点，提高网络访问速度和使用体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Hysteria2 的多路复用对短连接有何优势？</h5></div>
@@ -277,9 +262,24 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         多路复用允许多个短连接共享同一通道，减少握手延迟和资源消耗。适合高频短连接应用，如游戏和即时通讯，可提高吞吐量和连接稳定性，优化网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Matsuri 的节点自动测速功能如何配置？</h5></div>
+    <div class="panel-heading"><h5>如何在 Clash for Android 中导入订阅链接？</h5></div>
     <div class="panel-body">
-        Matsuri 可以设置测速周期和节点列表，程序会自动测试延迟和速度并排序。用户可根据测试结果选择最佳节点，提高网络访问速度和使用体验。<hr />    </div>
+        Clash for Android 支持通过订阅链接快速导入节点。用户只需在配置界面中点击“新建配置”，选择“URL 导入”并粘贴订阅地址即可，程序会自动下载并解析所有节点配置。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Potatso Lite 的节点导入方式有哪些？</h5></div>
+    <div class="panel-body">
+        Potatso Lite 支持通过手动添加节点信息或扫描二维码导入节点。虽然不支持自动订阅更新，但对轻量用户来说，手动方式足够使用，方便在 iOS 设备上管理节点。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>QuantumultX 如何实现按应用分流？</h5></div>
+    <div class="panel-body">
+        QuantumultX 可以根据不同应用程序的流量类型设置分流规则，通过策略组选择最优节点。这样可保证游戏、视频和浏览器流量经过最优节点，提高访问速度和网络稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Shadowrocket 的测速功能如何优化节点选择？</h5></div>
+    <div class="panel-body">
+        Shadowrocket 可测量节点延迟和丢包率，并根据结果排序策略组节点。延迟低的节点会优先使用，保证网页浏览、视频和游戏的速度和稳定性，提高整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Shadowrocket 的节点延迟测量如何帮助选择节点？</h5></div>
@@ -313,16 +313,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-10-25-free-vpn.htm" title="VPN IOS - 10月25日18.8M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Clash节点/Singbox节点订阅节点分享">VPN IOS - 10月25日18.8M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Clash节点/Singbox节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-11-node-share-links.htm" title="VPN IOS - 11月11日21.3M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点订阅节点分享">VPN IOS - 11月11日21.3M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点订阅节点分享</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-19-vpn-node.htm" title="VPN IOS - 11月19日19.9M/S|免费Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点订阅节点分享">VPN IOS - 11月19日19.9M/S|免费Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-22-mianfei-vpn.htm" title="VPN IOS - 10月22日21.6M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点订阅节点分享">VPN IOS - 10月22日21.6M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-11-vpn-node.htm" title="VPN IOS - 10月11日21.8M/S|免费V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Clash节点订阅节点分享">VPN IOS - 10月11日21.8M/S|免费V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Clash节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-3-vpn-github.htm" title="VPN IOS - 10月3日18.8M/S|免费V2ray节点/Shadowrocket节点/Clash节点/SSR节点/Singbox节点订阅节点分享">VPN IOS - 10月3日18.8M/S|免费V2ray节点/Shadowrocket节点/Clash节点/SSR节点/Singbox节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-9-vpn-proxy.htm" title="VPN IOS - 10月9日18.2M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Singbox节点订阅节点分享">VPN IOS - 10月9日18.2M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Singbox节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-4-vpn-proxy.htm" title="VPN IOS - 11月4日18M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点订阅节点分享">VPN IOS - 11月4日18M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-23-free-vpn.htm" title="VPN IOS - 11月23日20.6M/S|免费Clash节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点订阅节点分享">VPN IOS - 11月23日20.6M/S|免费Clash节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-28-free-vpn.htm" title="VPN IOS - 11月28日18.9M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点订阅节点分享">VPN IOS - 11月28日18.9M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-2-share-vpn.htm" title="VPN IOS - 12月2日20M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点订阅节点分享">VPN IOS - 12月2日20M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-7-vpn-node.htm" title="VPN IOS - 12月7日20.9M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点订阅节点分享">VPN IOS - 12月7日20.9M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-26-node-share-links.htm" title="VPN IOS - 11月26日19.1M/S|免费V2ray节点/SSR节点/Clash节点/Shadowrocket节点/Singbox节点订阅节点分享">VPN IOS - 11月26日19.1M/S|免费V2ray节点/SSR节点/Clash节点/Shadowrocket节点/Singbox节点订阅节点分享</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-12-free-node-subscribe.htm" title="VPN IOS - 11月12日19.7M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点订阅节点分享">VPN IOS - 11月12日19.7M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-2-free-vpn.htm" title="VPN IOS - 11月2日19.4M/S|免费Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点分享">VPN IOS - 11月2日19.4M/S|免费Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-4-node-share.htm" title="VPN IOS - 12月4日21M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点订阅节点分享">VPN IOS - 12月4日21M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-9-vpn-free.htm" title="VPN IOS - 11月9日21.7M/S|免费Clash节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点订阅节点分享">VPN IOS - 11月9日21.7M/S|免费Clash节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-30-vpn-free.htm" title="VPN IOS - 11月30日22.4M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享">VPN IOS - 11月30日22.4M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享</a></li>
                     </ul>
     </div>
 </div>
@@ -334,10 +334,10 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">27</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">7</span> <a href="/date/2025-12/" title="2025-12 归档">2025-12</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
+                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                     </ul>
     </div>
