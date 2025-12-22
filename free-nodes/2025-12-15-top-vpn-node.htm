@@ -236,22 +236,18 @@ App Store中搜索“Shadowsocks”或“V2Ray”，安装对应客户端。也�
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2025-12-14-node-share-links.htm">VPN IOS - 12月14日22M/S|免费SSR节点/Clash节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享</a></p>
+        <p>下一个：<a href="/free-nodes/2025-12-16-share-vpn.htm">VPN IOS - 12月16日18.8M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点订阅节点分享</a></p>
     </div>
 <h4>FAQ</h4>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Potatso Lite 是否支持节点手动排序？</h5></div>
+    <div class="panel-body">
+        支持。用户可以根据延迟或使用需求手动排序节点顺序，结合策略组和规则文件实现基本分流管理。虽然不支持自动订阅更新，但满足轻量用户的节点管理需求。<hr />    </div>
+</div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>SSR 协议如何配置优化抗封锁？</h5></div>
     <div class="panel-body">
         SSR 可通过选择合适协议、混淆方式和端口来降低被检测风险。合理配置可增强节点隐蔽性，提高长期稳定性，确保科学上网体验顺畅且可靠。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 的配置文件可以与 Clash 通用吗？</h5></div>
-    <div class="panel-body">
-        Surfboard 基于 Clash 核心，因此支持大部分 YAML 配置文件，但部分字段如 rule-provider、external-controller 等可能不兼容。建议使用订阅转换工具将 Clash 文件转换为 Surfboard 兼容格式导入。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 如何按端口分流流量？</h5></div>
-    <div class="panel-body">
-        Sing-box 支持根据端口匹配流量，将不同应用流量分配到指定节点。结合策略组使用，可精准分流，提高访问速度和网络稳定性，优化整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>如何在 V2Ray 中自定义路由规则？</h5></div>
@@ -259,14 +255,19 @@ App Store中搜索“Shadowsocks”或“V2Ray”，安装对应客户端。也�
         在 V2Ray 中可以通过修改 config.json 文件中的 routing 部分来自定义路由规则。用户可以根据 IP 段、域名或地理位置来决定流量的去向，从而实现自动分流或访问加速的效果。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 节点健康检测如何提升网络体验？</h5></div>
+    <div class="panel-heading"><h5>Surfboard 的配置文件可以与 Clash 通用吗？</h5></div>
     <div class="panel-body">
-        WinXray 会定期检测节点延迟和丢包率，并结合策略组自动切换到最优节点。避免高延迟或失效节点，提高网页浏览、视频播放和游戏连接的稳定性和速度。<hr />    </div>
+        Surfboard 基于 Clash 核心，因此支持大部分 YAML 配置文件，但部分字段如 rule-provider、external-controller 等可能不兼容。建议使用订阅转换工具将 Clash 文件转换为 Surfboard 兼容格式导入。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Potatso Lite 是否支持节点手动排序？</h5></div>
+    <div class="panel-heading"><h5>VLESS 的 XTLS 模式如何提升性能？</h5></div>
     <div class="panel-body">
-        支持。用户可以根据延迟或使用需求手动排序节点顺序，结合策略组和规则文件实现基本分流管理。虽然不支持自动订阅更新，但满足轻量用户的节点管理需求。<hr />    </div>
+        VLESS + XTLS 模式可以在加密传输中减少 TLS 握手和数据复制过程，从而显著降低延迟并减少 CPU 占用。这种优化特别适合高带宽或高并发的场景。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Sing-box 如何按端口分流流量？</h5></div>
+    <div class="panel-body">
+        Sing-box 支持根据端口匹配流量，将不同应用流量分配到指定节点。结合策略组使用，可精准分流，提高访问速度和网络稳定性，优化整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>PassWall2 在路由器中如何更新节点订阅？</h5></div>
@@ -284,9 +285,9 @@ App Store中搜索“Shadowsocks”或“V2Ray”，安装对应客户端。也�
         PassWall2 会根据节点延迟和成功率自动调整策略组选择最优节点。测速结果直接影响程序选择出口，从而提高连接速度和稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>VLESS 的 XTLS 模式如何提升性能？</h5></div>
+    <div class="panel-heading"><h5>WinXray 节点健康检测如何提升网络体验？</h5></div>
     <div class="panel-body">
-        VLESS + XTLS 模式可以在加密传输中减少 TLS 握手和数据复制过程，从而显著降低延迟并减少 CPU 占用。这种优化特别适合高带宽或高并发的场景。    </div>
+        WinXray 会定期检测节点延迟和丢包率，并结合策略组自动切换到最优节点。避免高延迟或失效节点，提高网页浏览、视频播放和游戏连接的稳定性和速度。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -315,16 +316,16 @@ App Store中搜索“Shadowsocks”或“V2Ray”，安装对应客户端。也�
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-11-23-free-vpn.htm" title="VPN IOS - 11月23日20.6M/S|免费Clash节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点订阅节点分享">VPN IOS - 11月23日20.6M/S|免费Clash节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-12-13-vpn-node.htm" title="VPN IOS - 12月13日18.2M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点订阅节点分享">VPN IOS - 12月13日18.2M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-21-free-vpn.htm" title="VPN IOS - 11月21日19.6M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享">VPN IOS - 11月21日19.6M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-12-1-share-vpn.htm" title="VPN IOS - 12月1日18.1M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点订阅节点分享">VPN IOS - 12月1日18.1M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-30-vpn-free.htm" title="VPN IOS - 11月30日22.4M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享">VPN IOS - 11月30日22.4M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-10-free-vpn.htm" title="VPN IOS - 11月10日19.3M/S|免费Singbox节点/Clash节点/SSR节点/Shadowrocket节点/V2ray节点订阅节点分享">VPN IOS - 11月10日19.3M/S|免费Singbox节点/Clash节点/SSR节点/Shadowrocket节点/V2ray节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-18-share-vpn.htm" title="VPN IOS - 11月18日22.7M/S|免费Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点订阅节点分享">VPN IOS - 11月18日22.7M/S|免费Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-14-vpn-github.htm" title="VPN IOS - 11月14日22.3M/S|免费Singbox节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点订阅节点分享">VPN IOS - 11月14日22.3M/S|免费Singbox节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-7-share-vpn.htm" title="VPN IOS - 11月7日19.7M/S|免费SSR节点/Shadowrocket节点/V2ray节点/Clash节点/Singbox节点订阅节点分享">VPN IOS - 11月7日19.7M/S|免费SSR节点/Shadowrocket节点/V2ray节点/Clash节点/Singbox节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-8-free-node-subscribe.htm" title="VPN IOS - 12月8日22.6M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点订阅节点分享">VPN IOS - 12月8日22.6M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点订阅节点分享</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-17-node-share.htm" title="VPN IOS - 11月17日21.5M/S|免费Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点订阅节点分享">VPN IOS - 11月17日21.5M/S|免费Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-29-free-node-subscribe.htm" title="VPN IOS - 11月29日20.2M/S|免费Shadowrocket节点/V2ray节点/Clash节点/SSR节点/Singbox节点订阅节点分享">VPN IOS - 11月29日20.2M/S|免费Shadowrocket节点/V2ray节点/Clash节点/SSR节点/Singbox节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-30-vpn-free.htm" title="VPN IOS - 11月30日22.4M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享">VPN IOS - 11月30日22.4M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-21-free-vpn.htm" title="VPN IOS - 11月21日19.6M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享">VPN IOS - 11月21日19.6M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-7-vpn-node.htm" title="VPN IOS - 12月7日20.9M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点订阅节点分享">VPN IOS - 12月7日20.9M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点订阅节点分享</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-6-free-node-subscribe-links.htm" title="VPN IOS - 11月6日21.9M/S|免费Clash节点/V2ray节点/Shadowrocket节点/Singbox节点/SSR节点订阅节点分享">VPN IOS - 11月6日21.9M/S|免费Clash节点/V2ray节点/Shadowrocket节点/Singbox节点/SSR节点订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-12-2-share-vpn.htm" title="VPN IOS - 12月2日20M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点订阅节点分享">VPN IOS - 12月2日20M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点订阅节点分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-11-node-share.htm" title="VPN IOS - 12月11日18.3M/S|免费Singbox节点/SSR节点/V2ray节点/Clash节点/Shadowrocket节点订阅节点分享">VPN IOS - 12月11日18.3M/S|免费Singbox节点/SSR节点/V2ray节点/Clash节点/Shadowrocket节点订阅节点分享</a></li>
                     </ul>
     </div>
 </div>
@@ -336,7 +337,7 @@ App Store中搜索“Shadowsocks”或“V2Ray”，安装对应客户端。也�
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">14</span> <a href="/date/2025-12/" title="2025-12 归档">2025-12</a></h4>
+                <h4><span class="badge" style="float: right;">21</span> <a href="/date/2025-12/" title="2025-12 归档">2025-12</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
